@@ -1,0 +1,11 @@
+n=int(input("enter a value\t"))
+x=y=a=0
+while(n!=0):
+    a=n%10
+    if(a%2==0):
+        x=x+a 
+    else:
+        y=y+a 
+    n=n//10
+s=abs(x-y)
+print("the abs diff b/w the +ve index and -ve index is",s)
