@@ -1,0 +1,6 @@
+# string basic format 
+txt = 'veeru'
+index = 0
+for i in txt:
+    print ("message [",index,"]=",i)
+    index+=1
