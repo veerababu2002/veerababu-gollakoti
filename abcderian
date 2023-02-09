@@ -1,0 +1,4 @@
+str1='KLMNOPQ'
+str2="ate"
+for l in str1:
+    print ((l+str2),end=" ")
